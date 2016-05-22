@@ -1,0 +1,25 @@
+{
+  "name": "cat_js_dashboard",
+  "version": "0.0.1",
+  "description": "Javascript dashboard for cats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sis-cats/js-dev-dashboard.git"
+  },
+  "keywords": [
+    "javascript",
+    "dashboard",
+    "test",
+    "bench"
+  ],
+  "author": "ollie314",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/sis-cats/js-dev-dashboard/issues"
+  },
+  "homepage": "https://github.com/sis-cats/js-dev-dashboard#readme"
+}
