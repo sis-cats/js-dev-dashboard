@@ -1,5 +1,8 @@
 # exclude project specific files
 .env
+public/vendors
+node_modules
+
 
 # Logs
 logs

@@ -1,0 +1,20 @@
+{
+  "directory": "public/vendors",
+  "registry": "https://bower.herokuapp.com",
+  "color": true,
+  "timeout": 60000,
+  "save": true,
+  "save-exact": true,
+  "strict-ssl": true,
+  "storage": {
+    "packages": "~/.bower/packages",
+    "registry": "~/.bower/registry",
+    "links": "~/.bower/links"
+  },
+  "interactive": false,
+  "scripts": {
+    "preinstall": "",
+    "postinstall": "",
+    "preuninstall": ""
+  }
+}

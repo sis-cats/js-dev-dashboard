@@ -21,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/sis-cats/js-dev-dashboard/issues"
   },
-  "homepage": "https://github.com/sis-cats/js-dev-dashboard#readme"
+  "homepage": "https://github.com/sis-cats/js-dev-dashboard#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "cookie-parser": "^1.4.2",
+    "express": "^4.13.4",
+    "lodash": "^4.12.0",
+    "momentjs": "^1.1.7",
+    "pino": "^2.4.2"
+  },
+  "devDependencies": {
+    "mock-express-response": "^0.1.2",
+    "node-mocks-http": "^1.5.2"
+  }
 }

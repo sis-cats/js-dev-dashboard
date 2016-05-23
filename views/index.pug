@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic")
+        link(rel="stylesheet" href="/vendors/angular-material/angular-material.css")
+        title= pageTitle
+    body(ng-app="dashboard", ng-cloak, style="100vh")
+        div(ui-view)
+        script(type="text/javascript", src="/vendors/angular/angular.js")
+        script(type="text/javascript", src="/vendors/angular-aria/angular-aria.js")
+        script(type="text/javascript", src="/vendors/angular-animate/angular-animate.js")
+        script(type="text/javascript", src="/vendors/angular-material/angular-material.js")
+        script(type="text/javascript", src="/vendors/angular-ui-router/release/angular-ui-router.js")
+        script(type="text/javascript", src="/javascripts/app.js")
+        script(type="text/javascript", src="/javascripts/routes.js")
+        script(type="text/javascript", src="/javascripts/controllers/HomeController.js")
+        script(type="text/javascript", src="/javascripts/controllers/SplashController.js")
+        script(type="text/javascript", src="/javascripts/controllers/ApplicationController.js")
+        script(type="text/javascript", src="/javascripts/services/SlugService.js")
